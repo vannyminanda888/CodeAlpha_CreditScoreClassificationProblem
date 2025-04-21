@@ -17,7 +17,6 @@ import numpy as np
 
 #read dataset:
 data = pd.read_csv("Credit Score Classification Dataset.csv")
+print(data.shape)
 data.head()
 
-#Dana Analysis
-data.shape()
