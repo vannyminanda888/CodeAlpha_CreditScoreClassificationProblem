@@ -23,7 +23,7 @@ Credit scoring is a crucial part of financial services, helping institutions ass
 1. **Data Preprocessing**:
    - Handling missing values
    - Encoding categorical variables (e.g., gender, education)
-   - Normalizing numerical features
+   - Normalizing isn't necessary in this particular case
 
 2. **Exploratory Data Analysis (EDA)**:
    - Feature distribution
@@ -31,18 +31,16 @@ Credit scoring is a crucial part of financial services, helping institutions ass
    - Class balance visualization
 
 3. **Modeling**:
-   - Trained multiple classifiers (e.g., Logistic Regression, Random Forest, XGBoost)
-   - Hyperparameter tuning using GridSearchCV
+   - Trained multiple classifiers (e.g., Logistic Regression, Random Forest)
    - Selected the best-performing model based on accuracy, precision, recall, and F1-score
 
 4. **Evaluation**:
    - Confusion matrix and classification report
-   - ROC curves
 
 ## 📊 Results
 
-- Achieved **TBU** on the test dataset
-- Best model: TBU
+- Achieved **98% accuracy** on the test dataset
+- Best model: Decision Tree and Random Forest with weight for imbalance class
 - Model performance remained consistent across all credit score categories
 
 ## 🛠️ Tech Stack
